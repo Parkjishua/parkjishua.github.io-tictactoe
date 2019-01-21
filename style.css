@@ -1,0 +1,60 @@
+body {
+	background-color: #f0f940e3;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: #3181e0e3;
+  }
+  
+  .container {
+	margin: 0 auto;
+	text-align: center;
+  }
+  
+  .header {
+	margin-top: 50px;
+  }
+  
+  h1 {
+	font-size: 50px;
+  }
+  
+  .controls {
+	margin-top: 40px;
+  }
+
+  .gameBoard {
+	margin-top: 40px;
+  }
+  
+  .row {
+	font-size: 0px;
+  }
+  
+  .row > div {
+	display: inline-block;
+	font-size: 90px;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	vertical-align: top;
+	line-height: 100px;
+  }
+
+  .right {
+	border-right: dashed 5px brown;
+  }
+  
+  .bottom {
+	border-bottom: dashed 5px brown;
+  }
+
+  .left {
+	border-left: dashed 5px brown;
+  }
+
+  .top {
+	border-top: dashed 5px brown;
+  }
+
+  .reset {
+	margin-top: 100px;
+  }

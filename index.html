@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+	
+<body>
+	<div class="container">
+		<!-- header sections -->
+		<div class="header">
+		  <h1>Tic Tac Toe</h1>
+		</div>
+		<!-- controls sections: checkboxes -->
+		<div class="controls">
+			<h3>Player VS Player</h3>
+		<form>
+			<input id= "reset" type="submit" onsubmit="newGame()" value="New Game">
+		</form>
+		</div>
+		<br />
+		<!--Display Turn-->
+		<div id="message" type="submit" onclick="startGame()">Hi!</div>
+		<!-- board container -->
+		<div class="gameBoard">
+				<!-- first row -->
+				<div class="row">
+				  <div id="box1" class="square bottom right"></div>
+				  <div id="box2" class="square bottom right"></div>
+				  <div id="box3" class="square bottom right"></div>   
+			  </div>
+				
+				<!-- second row -->
+				<div class="row">
+				  <div id="box4" class="square bottom right"></div>
+				  <div id="box5" class="square bottom right"></div>
+				  <div id="box6" class="square bottom right"></div>   
+			  </div>
+				
+				<!-- third row -->
+				<div class="row">
+				  <div id="box7" class="square bottom right"></div>
+				  <div id="box8" class="square bottom right"></div>
+				  <div id="box9" class="square bottom right"></div>   
+			  </div>  
+		<br/>
+			<div>
+			<p id="playerstatus" class="status"></p>
+	  </div>
+	<script src="./script.js"> </script>
+</body>
+</html>
